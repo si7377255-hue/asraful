@@ -1,0 +1,30 @@
+.about-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #111;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #00ffff;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-section p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.about-section strong {
+  color: #ff6bff;
+}
