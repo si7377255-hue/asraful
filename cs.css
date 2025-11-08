@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #00e6e6;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.heading {
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.heading span {
+  color: #00e6e6;
+}
+
+.contact form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.input-box input {
+  width: 48%;
+  padding: 15px;
+  margin: 10px 0;
+  background: #1e293b;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  background: #1e293b;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 10px;
+  resize: none;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #00e6e6;
+  color: #0f172a;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px #00e6e6;
+}
